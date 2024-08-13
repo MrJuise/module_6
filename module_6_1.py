@@ -6,10 +6,10 @@
     Создайте объекты этих классов.
 '''
 class Animal:
-    alive = True # живой
-    fed = False # накормленный
     def __init__(self, name):
         self.name = name
+        self.alive = True
+        self.fed = False
 class Plant:
     edible = False # съедобность
     def __init__(self, name):
